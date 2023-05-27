@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  font-family: 'Bebas Neue', sans-serif;
+  background-image: linear-gradient(180deg, rgb(138, 18, 203) 50%, rgb(9, 86, 9));
+}
+.main{
+  width: 900px;
+  height: 600px;
+  background-color: aquamarine;
+  margin: 120px 20px;
+  border-radius: 100px;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  flex-direction: column;
+  display: flex;
+  border-radius: 80px;
+} 
+.title{
+  margin-top: 10px;
+  color:white;
+  text-align: center;
+  font-size: 2.5rem;
+  
+}
+.col{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 22px;
+  
+}
+.col div{
+  width: 250;
+  text-align: center;
+}
+input{
+  height: 50px;
+  width: 50%;
+  border-color: transparent;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(187, 219, 238);
+  font-family: 'Monomaniac One', sans-serif;
+  margin-top: 150px;
+}
